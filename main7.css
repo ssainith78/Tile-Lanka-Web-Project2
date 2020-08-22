@@ -1,0 +1,38 @@
+.secClass{
+    margin: 60px 0;
+}
+
+.cls01{
+
+    background-image: url(./ac.jpg);
+    
+}
+
+.cls02{
+
+    background-image: url(./bb.jpg);
+    
+}
+
+.cls03{
+
+    background-image: url(./ba.jpg);
+    
+}
+
+
+.carousel-item{
+
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-delay: 0.2s;
+
+}
+
+.carousel-caption{
+    position: fixed;
+    top: 38%;
+    text-transform: capitalize;
+}

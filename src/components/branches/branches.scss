@@ -1,0 +1,38 @@
+.brnchpL{
+
+    width: 70VH;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+}
+
+
+@media screen and (min-width: 768px){
+
+    .brnchpL{
+
+        width: 90vw;
+        grid-template-columns: 1fr;
+        grid-column-gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .brnchpL{
+
+        width: 200VH;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media screen and (min-width: 1140px){
+
+    .brnchpL{
+
+        width: 200VH;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}

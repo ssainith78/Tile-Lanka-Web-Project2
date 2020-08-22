@@ -1,0 +1,157 @@
+#footer1{
+
+    padding: 40px;
+    color: whitesmoke;
+      
+    font-family: 'Play', sans-serif;
+  
+   }
+   
+   #footer1 .title-underline{
+       
+       color: grey;
+   }
+   
+   #footer1 .footer-icons{
+       font-size: 60px;
+       padding-top: 30px;
+       font-family: 'Play', sans-serif;
+   }
+   
+   #footer1 .footer-icons a{
+       color: deepskyblue;
+       text-decoration: none;
+   }
+   
+   #footer1 .footer-icons a:hover{
+       color: #F15025;
+   }
+   
+  #about{
+    background-color: #01010a;
+}
+
+#about .pic{
+    height: 600px;
+    background: url(bb.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #010105;
+}
+
+#about .box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-head{
+    color: whitesmoke;
+}
+
+.title-underline3{
+    width: 100%;
+    border: 3px solid rgb(187, 184, 184);
+    margin: 0px auto 10px auto;
+}
+
+.cpryt .cpyr,.cpyr2{
+
+    font-size: 15px;
+    color: rgb(12, 3, 3);
+    font-family: 'Play', sans-serif;
+
+}
+
+
+
+
+.cpyr:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.footNt{
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+    font-family: 'Play', sans-serif;
+}
+
+.title2{
+    
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+}
+
+.foothead{
+
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+    font-family: 'Play', sans-serif;
+    color: rgb(255, 254, 254);
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.footer-top{
+    margin: 50px;
+}
+
+.segment-one h3{
+
+    font-size: 16px;
+}
+
+.segment-two h3{
+
+    font-size: 16px;
+}
+
+.segment-three h3{
+
+    font-size: 16px;
+}
+
+.segment-four h3{
+
+    font-size: 16px;
+}
+
+.segment-one li a{
+
+    color: black;
+    font-size: 13px;
+}
+
+.segment-two li a{
+
+    color: black;
+    font-size: 13px;
+}
+
+.segment-three li{
+
+    color: black;
+    font-size: 13px;
+}
+
+.segment-three p{
+
+    color: black;
+    font-size: 13px;
+}
+
+.segment-four p{
+
+    color: black;
+    font-size: 13px;
+}
+
+.footer-top{
+    padding: 10px;
+}

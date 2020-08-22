@@ -1,0 +1,209 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+    color: black;
+    background: white;
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    opacity: 50%;
+}
+
+.hidePreloader{
+    display: none!important;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-icon{
+    font-size: 2rem;
+    color: rgb(26, 3, 3);
+}
+
+.navbar-toggler{
+    outline-color:black!important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-left:30px;
+  margin-right:30px;
+  font-size: 17px;
+  color: gray;
+  font-family: 'Play', sans-serif;
+    
+}
+
+.nav-link:hover{
+    
+    color: gray;
+    text-decoration: underline!important;
+}
+
+.nav-icon:hover{
+    color: rgb(4, 14, 151);
+}
+
+
+.nav-icon{
+    font-size: 1.5rem;
+    text-decoration: none!important;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    margin-left:10px;
+    margin-right:10px;
+    color: rgb(20, 4, 4);
+}
+.header{
+
+    color: white;
+    overflow: hidden;
+}
+
+.height-max{
+    min-height: calc(110vh - 80px);
+    background: url('../img/ac.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: zoom;
+    animation-duration: 20s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2) translateX(-1%);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.title-heading{
+    background-color:rgba(0, 0, 0, 0.4);
+    border-left: 0.3rem solid blue;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+@media screen and (min-width:768px){
+    .title{
+        font-size: 2rem;
+    }
+}
+
+.title-icon{
+    color: blue;
+    text-decoration: none!important;
+}
+
+.title-icon:hover{
+    color: blue;
+    opacity: 0.6;
+}
+
+.banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.banner-center a{
+    font-size: 30px;
+    width: 365px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    background-color: #F15025;
+    color: whitesmoke;
+    opacity: 50%;
+    text-decoration: none;
+    border-radius: 20px ;
+    font-family: 'Barlow Condensed', sans-serif;
+    }
+
+.banner-center a:hover,
+.banner a:focus{
+    color: #F15025;
+    background-color: whitesmoke;
+}
+
+.carousel-item{
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-delay: 1s;
+
+}
+
+.carousel-caption{
+    position: fixed;
+    top: 38%;
+    text-transform: capitalize;
+}
+
+#skills{
+    padding: 40px;
+    color: red;
+}
+
+#skills a{
+    background-color: #F15025;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#skills a:hover{
+    background-color: #CED0CE;
+    opacity: 100%;
+}
+
+#skills .bi{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+/* end od skill section */
+
+
+
+#skills{
+    margin: 0;
+    padding: 0;
+    color: rgb(248, 245, 242);
+ 
+}
+
+.cls1{
+    font-size: 22px;
+    background-color:rgb(24, 6, 6);
+    text-transform: capitalize;
+    opacity: 90%;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+

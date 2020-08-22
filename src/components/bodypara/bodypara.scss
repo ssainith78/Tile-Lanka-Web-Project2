@@ -1,0 +1,164 @@
+.banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+.banner-center2{
+    height: 15vh;
+}
+
+
+.banner-center2 a{
+    font-size: 30px;
+    width: 365px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    background-color: #F15025;
+    color: whitesmoke;
+    opacity: 50%;
+    text-decoration: none;
+    border-radius: 20px ;
+    font-family: 'Barlow Condensed', sans-serif;
+    }
+
+
+
+.banner-center a{
+    font-size: 30px;
+    width: 365px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    background-color: #F15025;
+    color: whitesmoke;
+    opacity: 50%;
+    text-decoration: none;
+    border-radius: 20px ;
+    font-family: 'Barlow Condensed', sans-serif;
+
+    }
+
+    .banner-center2 a{
+        font-size: 30px;
+        width: 400px;
+        margin: 0 auto;
+        display: inline-block;
+        border: 3px solid whitesmoke;
+        background-color: rgb(17, 5, 66);
+        clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+        color: whitesmoke;
+        opacity: 50%;
+        text-decoration: none;
+        border-radius: 20px ;
+        font-family: 'Barlow Condensed', sans-serif;
+        }
+
+.banner-center a:hover,
+.banner a:focus{
+    color: #F15025;
+    background-color: whitesmoke;
+}
+
+.carousel-item{
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-delay: 0.5s;
+
+}
+
+.carousel-item2{
+    height: 16vh;
+}
+
+.lmore{
+    background-color: white;
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+
+.lmore:hover{
+    background-color: #CED0CE;
+    opacity: 100%;
+}
+
+.txtpart{
+    
+    
+    text-align: justify;
+    color: rgb(167, 161, 161);
+   
+}
+.txtpart1{
+    
+    
+    text-align: justify;
+    color: rgb(190, 190, 190);
+   
+}
+
+.adjstCol{
+    margin: 35px;
+}
+
+.img1{
+    
+    opacity: 100%;
+    width: 100%;
+    height: 97%;
+
+}
+
+.img1:hover{
+    opacity: 80%;
+}
+
+.txtpart2{
+    top: 0;
+    
+    text-align: justify;
+    
+    
+}
+
+.new1{
+
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+    height: 60%;
+    background-color: rgb(134, 3, 21);
+    color: white;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    opacity: 50%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.new1:hover{
+    opacity: 100%;
+}
+
+.heading1{
+    text-align: center;
+    background-color: rgb(5, 5, 46);
+    color: whitesmoke;
+    height: 20%;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-color: rgb(28, 3, 247);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 35px;
+    padding: 5px;
+
+}

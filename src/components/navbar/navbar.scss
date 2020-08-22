@@ -1,0 +1,124 @@
+@import "../../index.scss";
+
+.navbar{
+    background-color: white;
+    padding: 30px;
+}
+
+.navbar-icon{
+    font-size: 2rem;
+    color: rgb(26, 3, 3);
+}
+
+.navbar-toggler{
+    outline-color:black!important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-left:30px;
+  margin-right:30px;
+  font-size: 17px;
+  color: gray;
+  font-family: 'Play', sans-serif;
+    
+}
+
+
+.nav-icon:hover{
+    color: rgb(4, 14, 151);
+}
+
+
+.nav-icon{
+    font-size: 1.5rem;
+    text-decoration: none!important;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    margin-left:10px;
+    margin-right:10px;
+    color: rgb(20, 4, 4);
+}
+
+.dropdown-content {	
+
+    padding: 5px;
+    margin: 110px 0;
+    display: grid;
+     width: 60%;
+    height: 30%;
+    position: relative;
+    top: 0;
+
+    background-color:rgb(6, 1, 46);
+  }
+  
+  .linkCls{
+    color: black;
+  }
+  
+  .dropdown-content a, .dropbtn {
+    display: inline-block;
+    padding: 15px;
+    padding: 14px 16px 18px 20px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    
+  }
+  
+  li.dropdown {
+    display: grid;
+  }
+  
+  .dropdown-content {
+    color: black;
+    padding: 25px;
+    display: none;
+    position: fixed;
+    left: 25%;
+    background-color: rgb(0,0,0.2);
+    opacity: 90%;
+    z-index: 1;
+    transition: width 1s, height 1s;;
+    clip-path: polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
+    
+  }
+  
+  .dropdown-content a {
+    padding: 30px;
+    align-items: center;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(247, 245, 241);
+    text-align: center;
+    text-decoration: none;
+    text-shadow: hue($color: #000000);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+    
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .nav-link:hover{
+
+      color: rgb(234, 245, 255);
+      opacity: 50%;
+      font-family: sans-serif;
+      transition: all 0.3s ease-in-out;
+      text-decoration: underline!important;
+      background-color: rgb(236, 233, 233);
+
+      .linkCls{
+        color: rgb(3, 2, 2);
+      }
+  }
+
+  

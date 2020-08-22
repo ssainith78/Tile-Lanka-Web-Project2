@@ -1,0 +1,95 @@
+.purchList{
+
+    width: 70vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+}
+
+
+@media screen and (min-width: 768px){
+
+    .purchList{
+
+        display: grid;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .purchList{
+
+        width: 200VH;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+@media screen and (min-width: 1140px){
+
+    .purchList{
+
+        width: 200VH;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+}
+
+.btn1{
+
+    font-size: 30px;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 50px;
+    background-color: rgb(12, 3, 61);
+    color: whitesmoke;
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.btn1:hover{
+
+    background-color: rgb(54, 1, 6);
+    opacity: 70%;
+    color: rgb(253, 245, 245);
+}
+
+.new10{
+
+    fill-opacity: 50%;
+    color: rgb(8, 7, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.btncls{
+   padding:  0.5rem 2rem;
+
+}
+
+.cls111{
+   
+    margin: 0 auto;
+    
+}
+
+.txt199{
+
+    color: whitesmoke;
+    padding:  0.5rem 5rem;
+    background-color: rgb(33, 0, 124);
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+
+}
+.Title-variety-say{
+    color: whitesmoke;
+    
+}
+.imgbck{
+    background-image: url(./2.jpg);
+}
